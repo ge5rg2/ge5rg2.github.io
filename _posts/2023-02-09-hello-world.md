@@ -3,7 +3,7 @@ layout: post
 title: "Hello World!"
 summary: "This is a test ab post"
 author: ge5rg2
-date: "2023-02-09 12:34:17 GMT+0900"
+date: "2023-02-09 12:34:17 +0900"
 category: jekyll
 thumbnail: /assets/img/posts/code.jpg
 keywords: test
