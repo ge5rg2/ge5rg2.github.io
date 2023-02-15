@@ -4,7 +4,7 @@ title: "Hello World!"
 summary: "This is a test ab post"
 author: ge5rg2
 date: "2023-02-09 12:34:17 +0900"
-category: javascript, project
+category: javascript
 thumbnail: /assets/img/posts/code.jpg
 keywords: test
 permalink: /blog/hello-world/
