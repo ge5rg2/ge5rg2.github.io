@@ -58,7 +58,7 @@ You shouldn't write like this like a normal programming language.
 
 You can feel the weirdness of JavaScript here.
 
-![https://codingapple.com/wp-content/uploads/2020/04/271c176806330.jpeg](https://codingapple.com/wp-content/uploads/2020/04/271c176806330.jpeg)
+<img src="https://codingapple.com/wp-content/uploads/2020/04/271c176806330.jpeg" width="100%"  height="100%" title="meme" alt="meme" />
 
 JavaScript is a different way of thinking than most programming languages.
 
