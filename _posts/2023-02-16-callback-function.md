@@ -77,6 +77,7 @@ Such code that takes a long time to execute is put on standby for a while,
 
 It means a way to process code that can be executed immediately.
 This is not a feature of the JavaScript language itself.
+
 It can be done thanks to a **web browser** that helps you run JavaScript.
 <br/>
 
