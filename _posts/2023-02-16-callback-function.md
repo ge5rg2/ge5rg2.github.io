@@ -229,3 +229,7 @@ fn1().then(function(){
 ```
 
 It doesn't grow sideways, and thanks to the keyword then, it's easy to figure out what it's doing.
+
+<br/>
+
+[Reference](https://codingapple.com/)
