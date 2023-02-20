@@ -25,7 +25,7 @@ urls:
 
 author_logo: profile.png
 author: George
-author_bio: Hi, my name is George. I built this site using devlopr-jekyll :D
+author_bio: Hi, my name is George. This is where I record what I have studied :D
 author_email: "kghee9612@gmail.com"
 author_location: Seoul
 author_website_url: "https://github.com/ge5rg2"
@@ -49,25 +49,31 @@ author_work_experiences:
 
 # Education
 author_education_details:
-  - college_logo: mit.png
-    college_name: MIT
-    college_url: https://mit.org
-    college_degree: CS Engineer
-    description: Bachelor of Technology
+  - college_logo: nomad.png
+    college_name: Nomad Coders
+    college_url: https://nomadcoders.co/
+    college_degree: Node, Express, Pug, MongoDB
+    description: Having demonstrated mastery of the skills Node, Express, Pug, MongoDB
+    visibility: true
+  - college_logo: codestates.png
+    college_name: Code states
+    college_url: https://www.codestates.com/?gclid=Cj0KCQiArsefBhCbARIsAP98hXRFMHBHeQVj_0ZKaM5mVxubXPI-LUwcHBElQBF9h_FSgV-8LkpN1bsaAmsJEALw_wcB
+    college_degree: Blockchain bootcamp
+    description: Having demonstrated mastery of the skills Node, React, javascript, MongoDB, MySQL, solidity
     visibility: true
 
 # Projects
 author_project_details:
-  - project_thumbnail: gamershub.png
-    project_title: Gamers Hub
-    project_description: A Platform built for Gamers and Game Devs
-    project_url: https://gamershub.in
+  - project_thumbnail: wuri.png
+    project_title: Wuri
+    project_description: Wuri is a side project app that allows users to keep a diary of their day, date with their lover, and parenting activities.
+    project_url: https://inquisitive-opera-47e.notion.site/Side-project-Wuri-c4435c8bd7464b6fb7376b7308af8195
     visibility: true
   - project_thumbnail: hack4r.PNG
     project_title: Hack4r
     project_description: A Platform built for Hackers and Penetration Testers
     project_url: https://hack4r.com
-    visibility: true
+    visibility: false
   - project_thumbnail: hack4r.PNG
     project_title: Wuri
     project_description: A Platform built for people who loves write diary
