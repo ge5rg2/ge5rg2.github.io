@@ -57,7 +57,7 @@ author_education_details:
     visibility: true
   - college_logo: codestates.png
     college_name: Code states
-    college_url: https://www.codestates.com/?gclid=Cj0KCQiArsefBhCbARIsAP98hXRFMHBHeQVj_0ZKaM5mVxubXPI-LUwcHBElQBF9h_FSgV-8LkpN1bsaAmsJEALw_wcB
+    college_url: https://www.codestates.com
     college_degree: Blockchain bootcamp
     description: Having demonstrated mastery of the skills Node, React, javascript, MongoDB, MySQL, solidity
     visibility: true
