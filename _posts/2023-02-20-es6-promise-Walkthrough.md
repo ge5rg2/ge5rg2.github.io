@@ -15,6 +15,8 @@ usemathjax: true
 
 ### **Q1. <img> I want to run a specific code on successful image loading.**
 
+<br/>
+
 I want to execute some code when the image inside the HTML finishes loading.
 <br/>
 
@@ -33,6 +35,8 @@ I want to make it using the then and catch functions of the Promise syntax. How 
 <br/>
 
 ### **Q2. I want to run some code when the Ajax request succeeds.**
+
+<br/>
 
 If you make a GET request to the path https://codingapple1.github.io/hello.txt , you will receive a greeting message.
 If you make a GET request here and it succeeds,
@@ -53,6 +57,8 @@ jQuery CDN
 
 ### **Q3. Promise chaining**
 
+<br/>
+
 After making a GET request to the path https://codingapple1.github.io/hello.txt in problem 2
 I used .then to print the greeting to the console window.
 
@@ -65,6 +71,8 @@ How can I update the code created in step 2?
 <br/>
 
 ### **Q1 Answer**
+
+<br/>
 
 To determine whether <img> with id test has been loaded / failed to load
 
@@ -108,6 +116,8 @@ That way, you can now use .then() .catch() to execute specific code on success/f
 
 ### **Q2 Answer**
 
+<br/>
+
 ```jsx
 var pro = new Promise(function (sucess, fail) {
   $.get("https://codingapple1.github.io/hello.txt").done(function (result) {
@@ -123,6 +133,8 @@ pro.then(function (result) {
 <br/>
 
 ### **Q3 Answer**
+
+<br/>
 
 ```jsx
 var pro = new Promise(function (sucess, fail) {

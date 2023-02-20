@@ -11,6 +11,8 @@ permalink: /blog/destructuring-syntax/
 usemathjax: true
 ---
 
+[Reference](https://codingapple.com/)
+
 The destructuring syntax makes it easy to create variables by extracting multiple data from Array and Object data types.
 
 <br/>
@@ -208,5 +210,3 @@ If you look closely, I used an equal sign to align the left and right sides the 
 And on the left, I wrote the variable name.
 
 <br/>
-
-[Reference](https://codingapple.com/)
