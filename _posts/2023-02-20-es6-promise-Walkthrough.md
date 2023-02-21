@@ -25,11 +25,13 @@ I want to execute some code when the image inside the HTML finishes loading.
 ```
 
 I want to print success in the console window when this image is loaded, and failure in the console window if the load fails.
+
 I want to make it using the then and catch functions of the `Promise` syntax. How can I code it?
 
 <br/>
 
 (Note) You can check that image loading is complete by attaching an event listener called load to <img>.
+
 (Note) You can check that image loading has failed by attaching an event listener called error to <img>.
 
 <br/>
@@ -39,9 +41,11 @@ I want to make it using the then and catch functions of the `Promise` syntax. Ho
 <br/>
 
 If you make a `GET request` to the path `https://codingapple1.github.io/hello.txt` , you will receive a greeting message.
+
 If you make a `GET request` here and it succeeds,
 
 I want to display the greeting received through `Ajax` to the console window using the then function of Promise.
+
 How can I do it?
 
 <br/>
@@ -110,6 +114,7 @@ imgLoading
 ```
 
 In `Promise`, you can create the number of cases where `success()` and `failure()` are executed.
+
 That way, you can now use `.then()` `.catch()` to execute specific code on success/failure.
 
 <br/>

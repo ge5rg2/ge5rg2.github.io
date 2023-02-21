@@ -16,6 +16,7 @@ usemathjax: true
 ### **Javascript works synchronously (synchronous)**
 
 synchronous processing -> **Execute one line of code at a time**
+
 A web browser that executes JavaScript has a code execution space called a stack.
 
 From there, it executes the code line by line.
@@ -27,6 +28,7 @@ From there, it executes the code line by line.
 So, the following code outputs 1,2,3 in order.
 
 This is because JavaScript processes code one line at a time. -> synchronous
+
 Most programming languages have this feature.
 
 ### **Asynchronous processing is also possible.**
@@ -78,6 +80,7 @@ This type of processing is called **asynchronous**.
 Such code that takes a long time to execute is put on standby for a while,
 
 It means a way to process code that can be executed immediately.
+
 This is not a feature of the JavaScript language itself.
 
 It can be done thanks to a **web browser** that helps you run JavaScript.
@@ -86,12 +89,14 @@ It can be done thanks to a **web browser** that helps you run JavaScript.
 ### **Waiting room to set code aside for a moment**
 
 There are pre-determined codes that can be deferred and set aside for a moment.
+
 These are the setTimeout, addEventListener, and ajax related functions mentioned above.
 
 setTimeout, addEventListener, and ajax-related functions are codes that do things like wait for 1 invitation and click.
 <br/>
 
 **A characteristic of these codes is that there is a difference between reading time and operation time.** (To put it simply, it takes a long time to operate.)
+
 When Chrome, which executes and interprets JavaScript, encounters these special codes,
 
 1. Leave it in the waiting room for a while 2. Run it again when it's ready.
@@ -108,6 +113,7 @@ And when the waiting time of 1 second passes and setTimeout is completed, the co
 <br/>
 
 This allows time-consuming code like setTimeout to be processed asynchronously.
+
 So JavaScript is usually processed synchronously if there is nothing special.
 
 It is a language that can be made to operate asynchronously by using functions such as setTimeout that support asynchronous.
@@ -126,8 +132,10 @@ console.log(3);
 ```
 
 You can write the code in the callback function inside setTimeout like this.
+
 Then 1 and 3 appear quickly in the console window
-Then, after **1 second**, the number 2 appears.  
+Then, after **1 second**, the number 2 appears.
+
 <br/>
 
 JavaScript actively utilizes callback functions when you want to execute codes **sequentially** in an asynchronous situation.  
@@ -187,10 +195,13 @@ fn1(fn2);
 ```
 
 You just need to pass a parameter to the function.
-And if you put parentheses around the parameter and say, “Execute it~”, you can put the function inside the function and execute it.  
+
+And if you put parentheses around the parameter and say, “Execute it~”, you can put the function inside the function and execute it.
+
 <br/>
 
 This is how to design a callback function.
+
 You can insert a pre-made function like above
 
 ```jsx
@@ -200,7 +211,9 @@ fn1(function(){
 ```
 
 You can also insert function declarations directly like this.
-There are some disadvantages to using multiple callback functions to execute sequentially.  
+
+There are some disadvantages to using multiple callback functions to execute sequentially.
+
 <br/>
 
 The cord grows sideways.
@@ -216,8 +229,11 @@ fn1(function(){
 ```
 
 This code executes fn1 fn2 fn3 in order like this.
+
 This pattern is especially common when developing servers with JavaScript.
-If you don't want to see this, you can create and use the ES6 newspaper law "Promise".  
+
+If you don't want to see this, you can create and use the ES6 newspaper law "Promise".
+
 <br/>
 
 By applying the "Promise" design pattern, which can be used instead of callbacks,

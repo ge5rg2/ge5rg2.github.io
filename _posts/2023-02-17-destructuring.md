@@ -40,6 +40,7 @@ var [a, b, c] = [2, 3, 4];
 ```
 
 You can declare a variable in a shape similar to the data `[2,3,4]`.
+
 Then three variables a,b,c are created, each with data 2,3,4.
 
 <br/>
@@ -139,6 +140,7 @@ fn(obj);
 ```
 
 Because of parameterization is the same behavior as creating a variable.
+
 You can apply the same syntax for creating variables.
 
 when entering parameters
