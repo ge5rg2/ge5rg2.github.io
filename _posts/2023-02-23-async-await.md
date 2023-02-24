@@ -215,7 +215,7 @@ Instead, the code inside the `catch {}` is executed.
 
 <br/>
 
-### **Example: Creating a Promise that succeeds when a <button> is pressed**
+### **Example: Creating a Promise that succeeds when a `<button>` is pressed**
 
 Q. Create a button within an HTML page
 
