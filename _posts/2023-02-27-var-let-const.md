@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "var let const and declaration, assignment, scope"
-summary: "Summary of variable newspaper laws pt.1"
+summary: "Summary of variable new syntax  pt.1"
 author: ge5rg2
 date: "2023-02-27 11:04:46 +0900"
 category: javascript
