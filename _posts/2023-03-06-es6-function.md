@@ -5,7 +5,7 @@ summary: "The default parameter function of the function upgraded from ES6, ES5 
 author: ge5rg2
 date: "2023-03-06 16:32:50 +0900"
 category: javascript
-thumbnail: /assets/img/posts/df.png
+thumbnail: /assets/img/posts/jsfn.jpg
 keywords: javascript
 permalink: /blog/parameter-arguments/
 usemathjax: true
