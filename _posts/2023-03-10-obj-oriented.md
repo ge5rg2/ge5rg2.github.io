@@ -3,7 +3,7 @@ layout: post
 title: "Object-Oriented 1"
 summary: "Object-Oriented 1. Let's create and use a constructor, which is an object creation machine."
 author: ge5rg2
-date: "2023-03-10 11:20:40 +0900"
+date: "2023-03-10 11:22:10 +0900"
 category: javascript
 thumbnail: /assets/img/posts/obj.png
 keywords: javascript
