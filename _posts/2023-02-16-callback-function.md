@@ -43,6 +43,7 @@ print(2)
 
 This code is written in Python
 time.sleep(1) means, please rest for 1 second.
+
 <br/>
 
 Then 1 is output / **1 second rest** / 2 is output.
@@ -56,6 +57,7 @@ console.log(2);
 ```
 
 You shouldn't write like this like a normal programming language.
+
 <br/>
 
 **1 and 2 are output to the console window at the same time**.
@@ -75,6 +77,7 @@ When I see these **special pieces of code, I try to put them aside and run other
 
 That's why setTimeout() is put aside and the code called console.log(2) under it is executed first.
 This type of processing is called **asynchronous**.
+
 <br/>
 
 Such code that takes a long time to execute is put on standby for a while,
@@ -84,6 +87,7 @@ It means a way to process code that can be executed immediately.
 This is not a feature of the JavaScript language itself.
 
 It can be done thanks to a **web browser** that helps you run JavaScript.
+
 <br/>
 
 ### **Waiting room to set code aside for a moment**
@@ -93,6 +97,7 @@ There are pre-determined codes that can be deferred and set aside for a moment.
 These are the setTimeout, addEventListener, and ajax related functions mentioned above.
 
 setTimeout, addEventListener, and ajax-related functions are codes that do things like wait for 1 invitation and click.
+
 <br/>
 
 **A characteristic of these codes is that there is a difference between reading time and operation time.** (To put it simply, it takes a long time to operate.)
@@ -110,6 +115,7 @@ console.log(2);
 ▲ When the browser reads the above code and encounters a setTimeout~ code, it moves to the Web API for a while and waits.
 
 And when the waiting time of 1 second passes and setTimeout is completed, the code is taken out of the waiting room and the code is executed.
+
 <br/>
 
 This allows time-consuming code like setTimeout to be processed asynchronously.
@@ -117,6 +123,7 @@ This allows time-consuming code like setTimeout to be processed asynchronously.
 So JavaScript is usually processed synchronously if there is nothing special.
 
 It is a language that can be made to operate asynchronously by using functions such as setTimeout that support asynchronous.
+
 <br/>
 
 ### **Sequential execution using callback function**
