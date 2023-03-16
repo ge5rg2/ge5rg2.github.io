@@ -32,7 +32,7 @@ I made three by hardcoding, but I'm thinking of making a `constructor` because I
 
 **Use the `constructor` syntax to draw 3 objects identical to the ones above.**
 
-**+ Here Add a `sayHi()` function inside the `constructor` so that when you use `student**1.sayHi()`, “Hello I am Kim” is displayed in the console window.\*\*
+- Here Add a `sayHi()` function inside the `constructor` so that when you use `student1.sayHi()`, “Hello I am Kim” is displayed in the console window.
 
 <br/>
 
@@ -45,7 +45,7 @@ function Student(n, a) {
   this.name = n;
   this.age = a;
   this.sayHi = function () {
-    console.log("**Hello I am** " + this.name);
+    console.log("Hello I am " + this.name);
   };
 }
 
