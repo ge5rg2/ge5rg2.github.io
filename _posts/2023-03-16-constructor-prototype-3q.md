@@ -60,7 +60,7 @@ Adding the `sayHi` function to `prototype` seems to be no problem at all.
 
 <br/>
 
-### **One. What will be the output of the following code?**
+### **1. What will be the output of the following code?**
 
 <br/>
 
