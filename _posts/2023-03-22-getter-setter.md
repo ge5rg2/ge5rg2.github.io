@@ -30,7 +30,7 @@ To understand this, you need to know about the methodology of handling `object` 
 
 <br/>
 
-### **How to retrieve `object` data with a function**
+### How to retrieve `object` data with a function
 
 <br/>
 
@@ -90,7 +90,7 @@ In that case, I make a lot of functions like that and use them. It can be seen t
 
 <br/>
 
-### **How to modify `object` data with functions**
+### How to modify `object` data with functions
 
 <br/>
 
@@ -167,7 +167,7 @@ So I think I can understand a little bit of crazy people who bother to make a fu
 
 <br/>
 
-### **If writing a function is complicated, add `get/set` keywords**
+### If writing a function is complicated, add `get/set` keywords
 
 <br/>
 
@@ -223,7 +223,7 @@ So we use `get`. And functions with `get` prefix are called `getters`. (meaning 
 
 <br/>
 
-### **The criteria for using `get/set` are **
+### The criteria for using `get/set` are
 
 <br/>
 
@@ -245,7 +245,7 @@ Usually, functions that feel like `get` are not too difficult if you add `get`.
 
 <br/>
 
-### ** `get/set` used in `class`**
+### `get/set` used in `class`
 
 <br/>
 
