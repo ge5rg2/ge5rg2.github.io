@@ -1,7 +1,7 @@
 title: ge5rg2
 subtitle: Developer Geroge's log
 description: >- # this means to ignore newlines until "baseurl:"
-  Before going to bed, I seek a proud day.
+  Tomorrow's me is made by today's me.
 
 url: "https://ge5rg2.github.io/" # the base hostname & protocol for your site, e.g. https://example.github.io
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -34,40 +34,40 @@ hero_cover_img: sample_cover.jpg # replace this for changing homepage cover (eg.
 
 # Experiences
 author_work_experiences:
-  - company_name: Google
-    company_logo: google.png
-    company_url: https://google.com
-    designation: Software Engineer
-    description: Worked on various Google Products
+  - company_name: JMC Corporation APJ
+    company_logo: JMC.png
+    company_url: https://www.jmckor.com/
+    designation: Developer
+    description: Web Development with UI5
     visibility: true
-  - company_name: Microsoft
-    company_logo: microsoft.png
-    company_url: https://microsoft.com
-    designation: Azure Developer
-    description: Worked on various Azure Cloud Products
-    visibility: true
+  - company_name: na
+    company_logo: na
+    company_url: na
+    designation: na
+    description: na
+    visibility: false
 
 # Education
 author_education_details:
   - college_logo: nomad.png
     college_name: Nomad Coders
     college_url: https://nomadcoders.co/
-    college_degree: Node, Express, Pug, MongoDB
-    description: Having demonstrated mastery of the skills Node, Express, Pug, MongoDB
+    college_degree: Node.js, Express, Pug, MongoDB, Next.js, React
+    description: Having demonstrated mastery of the skills React, Next.js, Node.js, Express, Pug, MongoDB
     visibility: true
   - college_logo: codestates.png
     college_name: Code states
     college_url: https://www.codestates.com
-    college_degree: Blockchain bootcamp
-    description: Having demonstrated mastery of the skills Node, React, javascript, MongoDB, MySQL, solidity
+    college_degree: Engineering Bootcamp
+    description: Having demonstrated mastery of the skills Node, React, javascript, MongoDB, MySQL
     visibility: true
 
 # Projects
 author_project_details:
   - project_thumbnail: wuri.png
     project_title: Wuri
-    project_description: Wuri is a side project app that allows users to keep a diary of their day, date with their lover, and parenting activities.
-    project_url: https://inquisitive-opera-47e.notion.site/Side-project-Wuri-c4435c8bd7464b6fb7376b7308af8195
+    project_description: Wuri is a app that allows users to keep a diary of their day, date with their lover, and parenting activities.
+    project_url: https://ge5rg2.github.io/Wuri/
     visibility: true
   - project_thumbnail: hack4r.PNG
     project_title: Hack4r

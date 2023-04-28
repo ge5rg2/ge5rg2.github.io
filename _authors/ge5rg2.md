@@ -1,5 +1,5 @@
 ---
-name: ge5rg2
+name: George
 username: ge5rg2
 bio: "I'm George, a Web Developer."
 site: https://ge5rg2.github.io
