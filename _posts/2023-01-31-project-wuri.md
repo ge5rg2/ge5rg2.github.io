@@ -11,6 +11,8 @@ permalink: /blog/wuri/about
 usemathjax: true
 ---
 
+<br/>
+
 # Side project “Wuri”
 
 Name called by “우리들의 다이어리, Wuri”
