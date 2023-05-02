@@ -6,7 +6,7 @@ author: ge5rg2
 date: "2023-01-31 14:37:05 +0900"
 category: project
 thumbnail: /assets/img/project/wuri.png
-keywords: javascript
+keywords: project
 permalink: /blog/wuri/about
 usemathjax: true
 ---
