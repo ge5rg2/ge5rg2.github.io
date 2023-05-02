@@ -5,7 +5,7 @@ summary: "About the project"
 author: ge5rg2
 date: "2023-01-31 14:37:05 +0900"
 category: project
-thumbnail: /assets/img/project/WuriNone.png
+thumbnail: /assets/img/project/wuri.png
 keywords: javascript
 permalink: /blog/wuri/about
 usemathjax: true
@@ -17,6 +17,8 @@ Name called by “우리들의 다이어리, Wuri”
 
 > **Wuri** is a side project app that allows users to keep a diary of their day, date with their lover, and parenting activities. It will feature OAuth login with Firebase, diary sharing with a lover, and diary creation and commenting. The technology stack includes React, Styled-Components, Firebase, and NotionDB. The project includes a welcome page, main page, diary page, new post page, sign out page, account page, and couple diary page. An ERD diagram is also available.
 
+<br/>
+
 ## Background 🌐
 
 ---
@@ -27,6 +29,8 @@ Action point
 2. Keep a diary of your date with your lover.
 3. Parenting, keeping a diary of animals.
 
+<br/>
+
 ## Project goal 💡
 
 ---
@@ -34,6 +38,8 @@ Action point
 1. Implementation of oauth function and login using firebase
 2. When setting up a lover, you can share your diary if the lover information you entered matches each other.
 3. Create or comments (including modification)
+
+<br/>
 
 ## Technology stack 👨‍🔧
 
@@ -47,11 +53,15 @@ DB - firebase
 
 Deploy - firebase, gh-pages
 
+<br/>
+
 ## Schedule 📆
 
 ---
 
 [Project Wuri](https://www.notion.so/c00f659653444fa38152b99ee6deaeb7)
+
+<br/>
 
 ## Page component 📃
 
@@ -70,10 +80,12 @@ Main page → Show up diary(preview) / New post / Nav var
 
 Couple diary: If the user who doesn’t registered couple diary, show pop up dialog that register couple info. else move to couple diary page
 
+<br/>
+
 ## ERD diagram
 
 ---
 
 [A Free Database Designer for Developers and Analysts](https://dbdiagram.io/d/63f3006c296d97641d822e33)
 
-![ERD](assets/img/../../../assets/img/project/ERD.png)
+![ERD](/assets/img/project/ERD.png)
